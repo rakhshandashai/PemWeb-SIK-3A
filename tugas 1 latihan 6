@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e1e0c9;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 30px;
+            color: #242627;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #c8d477;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-check-input {
+            margin-right: 0.5rem;
+        }
+
+        .form-check-label {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Belajar membuat formulir</h1>
+    
+    <form action="">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="Nama"></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="text" name="NIM"></td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>:</td>
+                <td><input type="text" name="Tempat Lahir"></td>
+            </tr>
+            <tr>
+                <td>Program studi</td>
+                <td>:</td>
+                <td>
+                    <select name="prodi"> <br>
+                        <option value="PGSD">Pendidikan guru sekolah dasar</option>
+                        <option value="PGPAUD">Pendidikan guru pendidikan anak usia dini</option>
+                        <option value="PKP">Pendidkan kelautan dan perikanan</option>
+                        <option value="SIK">Sistem informasi kelautan</option>
+                        <option value="LK">Logistik kelautan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk" value="laki-laki"> laki-laki
+                    <input type="radio" name="jk" value="Peremupuan"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td> 
+                <td>:</td>
+                <td>
+                    <input type="checkbox" name="hobi" value="baca"> baca <br>
+                    <input type="checkbox" name="hobi" value="nulis"> nulis <br>
+                    <input type="checkbox" name="hobi" value="nonton"> nonton <br>
+                    <input type="checkbox" name="hobi" value="olahraga"> olahraga <br>
+                    <input type="checkbox" name="hobi" value="mancing"> mancing <br> <hr>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"> <input type="submit" value="simpan"></td>
+            </tr>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</table>
+</html>
