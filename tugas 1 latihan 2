@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #2b416d;
+            color: #333;
+        }
+
+        h1, h2, h3, h4, h5 {
+            color: #3300ff;
+            margin: 0 0 15px 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #0056b3;
+        }
+
+        h3 {
+            font-size: 1.75em;
+            color: #0069d9;
+        }
+
+        h4 {
+            font-size: 1.5em;
+            color: #007bff;
+        }
+
+        h5 {
+            font-size: 1.25em;
+            color: #3399ff;
+        }
+
+        p {
+            font-size: 0,5em;
+            line-height: 1.6;
+            font-weight: bold;
+            font-family: 'Times new roman';
+            color: #f5f9fc;
+            margin: 0 0 20px 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ini adalah heading h1</h1>
+    <h2>Ini adalah heading h2</h2>
+    <h3>Ini adalah hearing h3</h3>
+    <h4>Ini adalah hearing h4</h4>
+    <h5>Ini adalah hearing h5</h5>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia in odio quia impedit? Temporibus fugiat ea eaque officia id, dolores quas assumenda omnis corrupti beatae aliquam aut dolorem quidem autem!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vitae ex eaque, debitis nesciunt veritatis odio impedit laudantium autem illo voluptates eum commodi quod soluta ea dolorem quidem iure delectus.</p>
+</body>
+</html>
