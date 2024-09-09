@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #c3dfa8;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #070707;
+        }
+
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #dcde8d;
+            padding: 20px;
+            border-radius: 3px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .form {
+           display: flex;
+           flex-direction: column;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            border: 1px solid #ced4da;
+        }
+
+        .form-check-label {
+            margin-left: 12px;
+        }
+
+        .form-check-input {
+            margin-right: 5px;
+        }
+
+        fieldset {
+            border: none;
+            margin-bottom: 1.5rem;
+            padding: 0;
+        }
+
+        legend {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .btn-primary {
+            background-color: #2f4052;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Belajar membuat formulir</h1>
+    <div class="form-container"></div>
+    <form action="">
+        <div class="form-group">
+            <form action="">
+                <div class="form-group">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="Nama" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="nim">NIM:</label>
+                    <input type="text" id="nim" name="NIM" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="tempat-lahir">Tempat Lahir:</label>
+                    <input type="text" id="tempat-lahir" name="Tempat Lahir" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="tanggal">Tanggal:</label>
+                    <input type="date" id="tanggal" name="Tanggal" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="prodi">Program Studi:</label>
+                    <select id="prodi" name="prodi" class="form-control">
+                        <option value="PGSD">Pendidikan Guru Sekolah Dasar</option>
+                        <option value="PGPAUD">Pendidikan Guru Pendidikan Anak Usia Dini</option>
+                        <option value="PKP">Pendidikan Kelautan dan Perikanan</option>
+                        <option value="SIK">Sistem Informasi Kelautan</option>
+                        <option value="LK">Logistik Kelautan</option>
+                    </select>
+                </div>
+                <fieldset class="form-group">
+                    <legend>Jenis Kelamin:</legend>
+                    <div class="form-check">
+                        <input type="radio" id="laki-laki" name="jk" value="laki-laki" class="form-check-input">
+                        <label for="laki-laki" class="form-check-label">Laki-laki</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" id="perempuan" name="jk" value="perempuan" class="form-check-input">
+                        <label for="perempuan" class="form-check-label">Perempuan</label>
+                    </div>
+                </fieldset>
+                <fieldset class="form-group">
+                    <legend>Hobi:</legend>
+                    <div class="form-check">
+            <input type="checkbox" name="hobi" value="baca"> baca
+            <input type="checkbox" name="hobi" value="nulis"> nulis
+            <input type="checkbox" name="hobi" value="nonton"> nonton
+            <input type="checkbox" name="hobi" value="olahraga"> olahraga
+            <input type="checkbox" name="hobi" value="mancing"> mancing <br>
+            <hr>
+            <input type="submit" value="simpan">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
