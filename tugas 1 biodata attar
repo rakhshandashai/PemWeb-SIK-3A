@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #cf9486;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        img {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>BIODATA MAHASISWA</h1>
+    <table>
+<tr>
+    <td>Nama</td>
+    <td>:</td>
+    <td>Attar</td>
+</tr>
+<tr>
+<td>Jenis Kelamin</td>
+<td>:</td>
+<td>laki-laki</td>
+<tr>
+<td>NIM</td>
+<td>:</td>
+<td>2307672</td>
+</tr>
+<tr>
+<td>Kelas</td>
+<td>:</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Program studi</td>
+<td>:</td>
+<td>Sistem informasi kelautan</td>
+</tr>
+<tr>
+<td>Foto</td>
+<td>:</td>
+<td><img src="attar.jpg" alt="Attar" width="40%"></td>
+</tr>
+</table>
+<a href="latihan 4.html">Kembali</a>
+</body>
+</html>
